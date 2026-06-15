@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { projects } from "@/config/portfolioData";
+import { projects, basePath } from "@/config/portfolioData";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { ExternalLink, Code } from "lucide-react";
 import Image from "next/image";
@@ -45,7 +45,7 @@ export function ProjectsSection() {
               {project.imagePath && (
                 <div className="relative w-full h-48 border-b border-slate-200 overflow-hidden">
                   <Image
-                    src={project.imagePath}
+                    src={`${basePath}${project.imagePath}`}
                     alt={project.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { basePath } from "@/config/portfolioData";
 
 const bentoItems = [
   {
@@ -64,7 +65,7 @@ export function PersonalBento() {
             className={`relative w-full h-full bg-white border border-slate-200 shadow-sm rounded-2xl overflow-hidden group ${item.className}`}
           >
             <Image
-              src={item.src}
+              src={`${basePath}${item.src}`}
               alt={item.alt}
               fill
               className="object-cover group-hover:scale-105 transition-all duration-500 ease-in-out"

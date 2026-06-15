@@ -1,4 +1,4 @@
-import { heroInfo } from "@/config/portfolioData";
+import { heroInfo, basePath } from "@/config/portfolioData";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Code, User, Mail, FileText } from "lucide-react";
 import Image from "next/image";
@@ -35,7 +35,7 @@ export function HeroSection() {
               <a href={`mailto:${heroInfo.socialLinks.email}`} className="flex items-center gap-2 px-5 py-3 rounded-full bg-white border border-slate-200 shadow-sm hover:-translate-y-1 hover:shadow-md hover:border-slate-300 transition-all font-medium text-slate-700">
                 <Mail size={20} /> Email
               </a>
-              <a href={heroInfo.resumePdfPath} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-5 py-3 rounded-full bg-orange-600 text-white shadow-sm hover:-translate-y-1 hover:shadow-md hover:bg-orange-700 transition-all font-medium">
+              <a href={`${basePath}${heroInfo.resumePdfPath}`} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-5 py-3 rounded-full bg-orange-600 text-white shadow-sm hover:-translate-y-1 hover:shadow-md hover:bg-orange-700 transition-all font-medium">
                 <FileText size={20} /> Resume
               </a>
             </div>
@@ -47,7 +47,7 @@ export function HeroSection() {
           <ScrollReveal delay={0.4} className="w-full max-w-sm">
             <div className="relative w-full aspect-[4/5] bg-white border border-slate-200 shadow-sm rounded-2xl overflow-hidden group">
               <Image 
-                src="/images/hero/headshot.heif" 
+                src={`${basePath}/images/hero/headshot.heif`} 
                 alt={`${heroInfo.name} Profile`}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

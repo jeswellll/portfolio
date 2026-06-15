@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { experiences, educations, Experience, Education } from "@/config/portfolioData";
+import { experiences, educations, Experience, Education, basePath } from "@/config/portfolioData";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Briefcase, GraduationCap } from "lucide-react";
 import Image from "next/image";
@@ -59,7 +59,7 @@ export function TimelineSection() {
                   {(item as any).imagePath && (
                     <div className="relative w-full h-32 border-b border-slate-200 overflow-hidden">
                       <Image
-                        src={(item as any).imagePath}
+                        src={`${basePath}${(item as any).imagePath}`}
                         alt={isEdu ? (item as Education).institution : (item as Experience).company}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -156,7 +156,7 @@ export function TimelineSection() {
                     {(item as any).imagePath && (
                       <div className="relative w-full h-40 border-b border-slate-200 overflow-hidden">
                         <Image
-                          src={(item as any).imagePath}
+                          src={`${basePath}${(item as any).imagePath}`}
                           alt={isEdu ? (item as Education).institution : (item as Experience).company}
                           fill
                           className="object-cover group-hover:scale-105 transition-transform duration-500"
