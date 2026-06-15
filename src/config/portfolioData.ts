@@ -271,7 +271,7 @@ export const projects: Project[] = [
       "Angular", "FastAPI (Python)", "PostgreSQL", "SQLAlchemy", "DOM/CSS Grids", "REST APIs"
     ],
     links: [
-      { label: "GitHub", url: "https://github.com/jeswellll/world-cup-tracker" }
+      { label: "Link", url: "https://github.com/jeswellll/world-cup-tracker" }
     ],
     imagePath: "/images/projects/world-cup-tracker.jpg"
   },
