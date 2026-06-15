@@ -1,0 +1,108 @@
+===========================================================================
+PROJECT 1: BOSCH AUTOMATED ISSUE-TRACKING PORTAL
+===========================================================================
+Title: Bosch Automated Issue-Tracking Portal
+Tagline: RPA & API Integrated Project Management Platform
+Technical Stack: Power Automate, RPA, APIs, HTML, CSS
+
+Description:
+Prototyped an automated issue-tracking portal integrating Robotic Process Automation (RPA) and APIs for a corporate partnership with Bosch. Managed project scope and technical deliverables to guide student teams through unstructured business problems.
+
+Key Metrics & Impact:
+- Placeholder: e.g., Reduced manual issue logging time by 90%
+- Successfully managed technical deliverables and scope for cross-functional corporate integration.
+
+Links:
+GitHub: https://github.com/poorva120900/Bosch
+Solution: .context\bosch_demo.html
+
+===========================================================================
+PROJECT 2: AWG COMPETITIVE PRICING ANALYTICS
+===========================================================================
+Title: AWG Price Elasticity & Gap Analysis
+Tagline: Data-Driven Pricing Engine for Wholesale Distribution
+Technical Stack: Python, SQL, Business Intelligence, Data Visualization
+
+Description:
+Analyzed complex sales data to map competitive pricing responses for Associated Wholesale Grocers (AWG). Translated raw data into actionable business intelligence for enterprise pricing strategies.
+
+Key Metrics & Impact:
+- Processed and analyzed 156,672 historical sales records.
+- Delivered actionable pricing models used to adjust competitive pricing strategies.
+
+Colab notebook: https://colab.research.google.com/drive/15eoh1rK4zRTruJCdfVhuT1ELjyXqNQt7?usp=sharing
+
+===========================================================================
+PROJECT 3: MAGELLI SCOUT (AI FOR IMPACT)
+===========================================================================
+Title: Magelli Scout
+Tagline: AI-Powered Prospect Intelligence System
+Award/Recognition: Won 1st Prize at the Gies AI for Impact Challenge (April 2026)
+Technical Stack: Copilot Studio, Power Automate, Power BI
+
+Description:
+Developed an end-to-end prospect intelligence system designed to automate manual enterprise scouting workflows. Integrated AI agents to fetch, clean, and analyze high-impact lead indicators, rendering actionable insights directly onto an interactive executive dashboard.
+
+Key Metrics & Impact:
+- Secured 1st place out of 22 competing teams at the Gies AI for Impact Challenge.
+- Automated 90% of manual prospecting workflows for research teams.
+
+Links:
+Live Demo: https://www.youtube.com/watch?v=LXDRdg8BAf0
+
+===========================================================================
+PROJECT 4: DECENTRALIZED ENERGY TRADING PLATFORM
+===========================================================================
+Title: Decentralized Energy Trading Platform
+Tagline: Peer-to-Peer Blockchain Energy Ecosystem
+Technical Stack: Blockchain (Ganache), Cellular Automata Logic
+
+Description:
+Conceptualized and designed a peer-to-peer energy trading ecosystem using Blockchain and Cellular Automata logic as a B.Tech final year project. Defined rules for surplus and deficit energy balancing to create a sustainable grid model.
+
+Key Metrics & Impact:
+- Successfully simulated a sustainable grid model balancing energy for 10 households.
+- Designed underlying logic to execute automated, decentralized energy transactions.
+
+===========================================================================
+PROJECT 5: AUTONOMOUS F1 TELEMETRY & FANTASY PREDICTOR
+===========================================================================
+Title: Autonomous F1 Telemetry & Fantasy Predictor
+Tagline: Multi-Agent System for Racing Analytics & Prediction
+Technical Stack: Python, AI Agents (CrewAI & LangChain), RAG (LlamaIndex, ChromaDB), FastF1 API, LLMs (Gemini), Helicone, Zapier, Notion
+
+System Architecture & Data Flow:
+- Orchestrator Agent: Triggered asynchronously post-qualifying to manage task delegation and state among sub-agents.
+- Retrieval Sub-Agent (Telemetry): Executes Python to query the FastF1 API for raw JSON datasets covering lap times, tire degradation, and micro-sector splits.
+- RAG Pipeline: Connects to a local ChromaDB instance populated with vectorized historical track characteristics, weather probabilities, and historical safety car rates via LlamaIndex.
+- Evaluation Sub-Agent: Synthesizes quantitative FastF1 data with qualitative RAG context to compute projected points.
+- Observability Layer: Utilizes Helicone to capture telemetry on LLM calls, monitoring token latency and cost.
+- Data Flow: Cron Job Trigger → Orchestrator → Parallel API scrape (FastF1) & Vector Search (ChromaDB) → LLM Synthesis (Gemini) → Output JSON → Zapier Webhook → Notion Database.
+
+Description:
+Engineered a headless multi-agent system to automate Formula 1 fantasy predictions by integrating real-time telemetry with historical race context. The pipeline orchestrates parallel data ingestion—scraping the FastF1 API while querying a ChromaDB vector store—before synthesizing the data via LLM to output optimized roster predictions to a structured Notion dashboard for human review. 
+
+Key Metrics & Impact:
+- Deployed a highly technical multi-agent architecture to solve time-sensitive data analysis prior to race start.
+- Minimized infrastructure costs by utilizing open-source vector databases (ChromaDB), orchestration frameworks (CrewAI), and free-tier LLM integrations.
+- Implemented observability tools and logging to prevent silent failures during asynchronous execution loops.
+
+GitHub: https://github.com/jeswellll/f1-telemetry
+
+===========================================================================
+PROJECT 6: CUSTOM UIUC DASHBOARD (API Integration & Automation)
+===========================================================================
+Title: UIUC Workspace Dashboard
+Tagline: Consolidated Academic, Shift Schedule & Campus News Command Center
+Technical Stack: Next.js (App Router), React, TypeScript, Google Calendar API (googleapis), Canvas LMS iCal, Reddit API, RSS Parser, Google Gemini API (gemini-2.5-flash), Tailwind CSS
+
+Description:
+Engineered a secure, custom personal dashboard that consolidates academic workflows, work shifts, and campus news into a unified interface. Built direct integrations with the Google Calendar API via JWT service account authentication to stream upcoming work schedules, alongside a Canvas LMS iCal parser to track upcoming assignment deadlines. Leveraged the Google Gemini API to ingest and synthesize daily headlines from the campus newspaper RSS feed and top daily posts from the r/UIUC subreddit, dynamically generating structured, high-priority campus safety alerts and top stories.
+
+Key Metrics & Impact:
+- Centralized 4 distinct external data streams (Canvas LMS, Google Calendar, Daily Illini RSS, and r/UIUC Subreddit) into a single asynchronous, low-latency UI.
+- Automated daily campus briefing generation using LLM semantic parsing to extract critical safety warnings and top news stories in real time.
+- Implemented modular, component-based layout design ensuring instant performance rendering.
+
+Links:
+GitHub: https://github.com/jeswellll/uiuc-dashboard

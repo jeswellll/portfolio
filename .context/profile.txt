@@ -1,0 +1,62 @@
+================================================================================
+BASIC INFORMATION
+================================================================================
+Full Name: Jeswell Mathew
+Target Roles: Full-Stack Engineer, Software Engineer, Data Engineer, Technical Product/Project Manager
+Location: Champaign, IL (Open to Relocation)
+Email: jeswellmathew@gmail.com
+Phone: (217) 3907347
+GitHub: https://github.com/jeswellll
+LinkedIn: https://www.linkedin.com/in/jeswellmathew/
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+Professional software developer and technology management graduate student with ~2 years of industry experience building scalable full-stack web applications and robust data systems. Proficient in designing responsive frontends, optimizing backend APIs, and engineering automated data workflows. Proven track record of bridging technical engineering with data-driven strategic outcomes, demonstrated through academic excellence, cross-functional project leadership, and technical Teaching Assistant roles.
+
+================================================================================
+TECHNICAL CORE STACK
+===========================================================================
+Product & Agile: Agile/Scrum Methodologies, SDLC Management, Roadmap Planning, User Story Mapping, JIRA (via Azure DevOps)
+Data & Analysis: SQL (MySQL, MSSQL), Power Automate, Business Intelligence, Data Visualization
+Core Technical Stack: Cloud Infrastructure (Azure, AWS), CI/CD Pipelines, Microservices Architecture, Python, Angular
+Languages: C, C++, C#, Python, JavaScript, PHP
+Web Development: Angular, HTML, CSS, SCSS
+
+================================================================================
+EDUCATION & RELEVANT ROLES
+================================================================================
+University of Illinois Urbana-Champaign (UIUC) | Gies College of Business
+Master of Science in Technology Management (MSTM)
+Graduation: August 2026
+Key Highlights: First Place Winner at Gies AI for Impact Challenge (April 2026), Graduate Teaching Assistant at Gies College of Business (February 2026 - May 2026)
+
+National Institute of Technology, Calicut
+Bachelor of Technology (B.Tech) in Computer Science and Engineering
+Graduation: 2023
+
+===========================================================================
+PROFESSIONAL EXPERIENCE & LEADERSHIP
+===========================================================================
+Teaching Assistant - Business Practicum, University of Illinois Urbana-Champaign (Jan 2026 - Present)
+Prototyped an automated issue-tracking portal integrating RPA and APIs for a Bosch project
+Analyzed complex sales data using Python to map competitive pricing responses for AWG
+Partnered with faculty to guide student teams through complex, unstructured business problems
+
+Software Engineering Analyst, MRO Corp (Aug 2023 - Aug 2025)
+Orchestrated CI/CD pipeline strategy in Azure DevOps, increasing deployment frequency by 70%
+Led team retrospectives and implemented Scrum process optimizations that reduced sprint carry-over tasks by 70%
+Directed the architectural optimization of 5+ microservices, achieving a 40% reduction in data retrieval latency
+Partnered with stakeholders to refine UI/UX requirements for an Angular-based frontend supporting 300+ professionals
+Received 'Extreme Ownership Award' for proactive problem-solving
+
+Intern - Automation and Datamation, Spinebiz Services (May 2022 - July 2022)
+Identified workflow bottlenecks in visa processing and designed a Power Automate solution eliminating 12 hours of manual entry per week
+Led the end-to-end design and rollout of a seat booking application in Zoho Creator to manage office capacity
+
+Program Committee & Joint Coordinator, Ragam '21/'22
+Managed logistics and operational planning for a large-scale event with 30,000+ attendees
+Led and coordinated a cross-functional team of 40 volunteers
+
+Joint Secretary, NITC Industrial and Planning Forum
+Co-hosted NITCMUN in collaboration with the London School of Economics, managing relationships with delegates from 50+ institutions
