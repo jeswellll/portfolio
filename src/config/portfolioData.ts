@@ -257,6 +257,24 @@ export const projects: Project[] = [
     ],
     imagePath: "/images/projects/bosch-portal.webp"
   },
+  {
+    title: "FIFA World Cup 2026 Tracker",
+    tagline: "Full-Stack Expanded Tournament Permutation & Standings Dashboard",
+    description: "Engineered a full-stack progressive web application to calculate dynamic standings and bracket routing for the expanded 48-team, 12-group 2026 tournament format. Developed complex standings tie-breakers and automated knockout stage population using background synchronization tasks.",
+    category: "Automation",
+    coreMetrics: [
+      "Designed standing calculations for the expanded 48-team format, including third-place qualifiers.",
+      "Built a FastAPI background scheduler to sync live score data via RapidAPI / football-data.org.",
+      "Implemented a dynamic 32-team knockout bracket routing engine on the frontend."
+    ],
+    technicalStack: [
+      "Angular", "FastAPI (Python)", "PostgreSQL", "SQLAlchemy", "DOM/CSS Grids", "REST APIs"
+    ],
+    links: [
+      { label: "GitHub", url: "https://github.com/jeswellll/world-cup-tracker" }
+    ],
+    imagePath: "/images/projects/world-cup-tracker.jpg"
+  },
 ];
 
 export const skills: Skills = {
