@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jeswell Mathew - Personal Portfolio
 
-## Getting Started
+A sleek, responsive, and high-performance developer portfolio website designed for **Jeswell Mathew**, Technical Product Manager & Business Strategist. It showcases professional experience, education, projects, achievements, and leadership milestones with clean design aesthetics.
 
-First, run the development server:
+Live site: **[https://jeswellll.github.io/portfolio/](https://jeswellll.github.io/portfolio/)**
 
+---
+
+## 🚀 Key Features
+
+- **Experience & Education Timeline**: A custom topological grid layout that logically aligns experience and education milestones, compressing long empty durations on desktop while falling back to a clean mobile vertical list.
+- **Project Filtering System**: Interactive filters categorizing technical projects into **AI & Analytics**, **Product & Strategy**, and **Automation** to match industry-focused requirements.
+- **Off-Duty Bento Grid**: A premium 5-item bento grid layout displaying personal highlights with interactive glassmorphism hover overlays, image zooms, and sliding high-contrast typography.
+- **Responsive Layout**: Designed for optimal readability across standard viewport sizes, from mobile phones to high-definition desktop monitors.
+- **CI/CD Automation**: Integrated with a GitHub Actions pipeline that triggers on pushes to `main` to build and deploy static pages directly to GitHub Pages.
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Library**: [React](https://react.dev/) & [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: Custom `ScrollReveal` components
+- **Deployment**: [GitHub Actions](https://github.com/features/actions) & [GitHub Pages](https://pages.github.com/)
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed (recommended version `v20.x` or higher).
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jeswellll/portfolio.git
+   cd portfolio
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development Server
+
+Run the local development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open [http://localhost:3000](http://localhost:3000) in your browser to inspect the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Build and Static Export
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To manually compile and export the static application locally:
+```bash
+npm run build
+```
+The compiled HTML, CSS, and JS files will be generated in the `./out` directory.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Deployment Pipeline
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This repository is configured to deploy automatically via **GitHub Actions**:
+- The deployment configuration is defined at [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+- When a commit is pushed to the `main` branch, the workflow triggers, checks out the repository, builds the static site, and deploys it directly to GitHub Pages.
