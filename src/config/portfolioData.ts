@@ -69,8 +69,8 @@ export interface Leadership {
 
 export const heroInfo: HeroInfo = {
   name: "Jeswell Mathew",
-  title: "Technical Product Manager & Business Strategist",
-  subHeadline: "Professional software developer and technology management graduate student with ~2 years of industry experience bridging the gap between technical execution and strategic business outcomes. Specialized in Technical Product Management, Business Strategy, and AI Transformation.",
+  title: "Technical Product Manager | AI Systems & Product Strategy",
+  subHeadline: "Professional software developer and technology management graduate student with ~2 years of industry experience bridging the gap between technical execution and strategic business outcomes. Specialized in Technical Product Management, AI Systems Engineering (Multi-Agents, RAG Pipelines), and AI Transformation Strategy.",
   socialLinks: {
     github: "https://github.com/jeswellll",
     linkedin: "https://www.linkedin.com/in/jeswellmathew/",
@@ -172,6 +172,58 @@ export const projects: Project[] = [
     imagePath: "/images/projects/magelli-scout.webp"
   },
   {
+    title: "F1 Autonomous Predictive Analytics Pipeline",
+    tagline: "Autonomous Predictive Analytics Pipeline using RAG & Multi-Agents",
+    description: "Designed the system architecture for an autonomous predictive model utilizing RAG pipelines and automated data orchestration, aligning notion outputs with rigid time constraints to optimize strategic decision-making.",
+    category: "AI & Analytics",
+    coreMetrics: [
+      "Designed system architecture utilizing RAG pipelines and CrewAI agents.",
+      "Aligned Notion outputs with rigid time constraints to optimize decision-making."
+    ],
+    technicalStack: [
+      "Python", "RAG (LlamaIndex, ChromaDB)", "Multi-Agents (CrewAI)", "LLMs (Gemini)", "FastF1 API", "Notion", "APIs"
+    ],
+    links: [
+      { label: "GitHub", url: "https://github.com/jeswellll/f1-telemetry" },
+    ],
+    imagePath: "/images/projects/f1-telemetry.png"
+  },
+  {
+    title: "FIFA World Cup 2026 Tracker",
+    tagline: "Full-Stack Expanded Tournament Permutation & Standings Dashboard",
+    description: "Engineered a full-stack progressive web application to calculate dynamic standings and bracket routing for the expanded 48-team, 12-group 2026 tournament format. Developed complex standings tie-breakers and automated knockout stage population using background synchronization tasks.",
+    category: "Automation",
+    coreMetrics: [
+      "Designed standing calculations for the expanded 48-team format, including third-place qualifiers.",
+      "Built a FastAPI background scheduler to sync live score data via RapidAPI / football-data.org.",
+      "Implemented a dynamic 32-team knockout bracket routing engine on the frontend."
+    ],
+    technicalStack: [
+      "Angular", "FastAPI (Python)", "PostgreSQL", "SQLAlchemy", "DOM/CSS Grids", "REST APIs"
+    ],
+    links: [
+      { label: "Link", url: "https://github.com/jeswellll/world-cup-tracker" }
+    ],
+    imagePath: "/images/projects/world-cup-tracker.jpg"
+  },
+  {
+    title: "AWG Price Elasticity & Gap Analysis",
+    tagline: "Data-Driven Pricing Engine for Wholesale Distribution",
+    description: "Analyzed complex sales data to map competitive pricing responses for Associated Wholesale Grocers (AWG), translating raw data into actionable enterprise pricing strategies.",
+    category: "AI & Analytics",
+    coreMetrics: [
+      "Processed and analyzed 156,672 historical sales records.",
+      "Delivered actionable pricing models used to adjust competitive pricing strategies."
+    ],
+    technicalStack: [
+      "Python", "SQL", "Business Intelligence", "Data Analysis", "Data Visualization"
+    ],
+    links: [
+      { label: "Colab Notebook", url: "https://colab.research.google.com/drive/15eoh1rK4zRTruJCdfVhuT1ELjyXqNQt7?usp=sharing" }
+    ],
+    imagePath: "/images/projects/awg-pricing.png"
+  },
+  {
     title: "Zolve (ZKart) Product Strategy Case Study",
     tagline: "E-Commerce User Journey Analysis & GTM Strategy",
     description: "Conducted an end-to-end product analysis on the ZKart e-commerce marketplace, mapping the user journey to identify technical friction points (routing, infinite scroll bugs) and conversion bottlenecks. Developed comprehensive retention and GTM strategies designed to boost daily order volumes and drive credit card utilization within a 30-day target window.",
@@ -206,40 +258,6 @@ export const projects: Project[] = [
     imagePath: "/images/projects/uiuc-dashboard.jpg"
   },
   {
-    title: "F1 Autonomous Predictive Analytics Pipeline",
-    tagline: "Autonomous Predictive Analytics Pipeline using RAG & Multi-Agents",
-    description: "Designed the system architecture for an autonomous predictive model utilizing RAG pipelines and automated data orchestration, aligning notion outputs with rigid time constraints to optimize strategic decision-making.",
-    category: "AI & Analytics",
-    coreMetrics: [
-      "Designed system architecture utilizing RAG pipelines and CrewAI agents.",
-      "Aligned Notion outputs with rigid time constraints to optimize decision-making."
-    ],
-    technicalStack: [
-      "Python", "RAG (LlamaIndex, ChromaDB)", "Multi-Agents (CrewAI)", "LLMs (Gemini)", "FastF1 API", "Notion", "APIs"
-    ],
-    links: [
-      { label: "GitHub", url: "https://github.com/jeswellll/f1-telemetry" },
-    ],
-    imagePath: "/images/projects/f1-telemetry.png"
-  },
-  {
-    title: "AWG Price Elasticity & Gap Analysis",
-    tagline: "Data-Driven Pricing Engine for Wholesale Distribution",
-    description: "Analyzed complex sales data to map competitive pricing responses for Associated Wholesale Grocers (AWG), translating raw data into actionable enterprise pricing strategies.",
-    category: "AI & Analytics",
-    coreMetrics: [
-      "Processed and analyzed 156,672 historical sales records.",
-      "Delivered actionable pricing models used to adjust competitive pricing strategies."
-    ],
-    technicalStack: [
-      "Python", "SQL", "Business Intelligence", "Data Analysis", "Data Visualization"
-    ],
-    links: [
-      { label: "Colab Notebook", url: "https://colab.research.google.com/drive/15eoh1rK4zRTruJCdfVhuT1ELjyXqNQt7?usp=sharing" }
-    ],
-    imagePath: "/images/projects/awg-pricing.png"
-  },
-  {
     title: "Bosch Automated Issue-Tracking Portal",
     tagline: "RPA & API Integrated Project Management Platform",
     description: "Prototyped an automated issue-tracking portal integrating Robotic Process Automation (RPA) and APIs for a corporate partnership with Bosch. Managed project scope and technical deliverables for cross-functional corporate integration.",
@@ -257,39 +275,20 @@ export const projects: Project[] = [
     ],
     imagePath: "/images/projects/bosch-portal.webp"
   },
-  {
-    title: "FIFA World Cup 2026 Tracker",
-    tagline: "Full-Stack Expanded Tournament Permutation & Standings Dashboard",
-    description: "Engineered a full-stack progressive web application to calculate dynamic standings and bracket routing for the expanded 48-team, 12-group 2026 tournament format. Developed complex standings tie-breakers and automated knockout stage population using background synchronization tasks.",
-    category: "Automation",
-    coreMetrics: [
-      "Designed standing calculations for the expanded 48-team format, including third-place qualifiers.",
-      "Built a FastAPI background scheduler to sync live score data via RapidAPI / football-data.org.",
-      "Implemented a dynamic 32-team knockout bracket routing engine on the frontend."
-    ],
-    technicalStack: [
-      "Angular", "FastAPI (Python)", "PostgreSQL", "SQLAlchemy", "DOM/CSS Grids", "REST APIs"
-    ],
-    links: [
-      { label: "Link", url: "https://github.com/jeswellll/world-cup-tracker" }
-    ],
-    imagePath: "/images/projects/world-cup-tracker.jpg"
-  },
 ];
 
 export const skills: Skills = {
-  "Business & Strategy": [
-    "Product Management", "Go-to-Market (GTM) Strategy", "Market Analysis",
-    "Cross-Functional Leadership", "Agile/Scrum Methodologies", "SDLC Management",
-    "Roadmap Planning", "Business Intelligence"
+  "AI Product & Strategy": [
+    "AI Product Management", "Prompt Engineering", "RAG Strategy", "AI Agent Orchestration",
+    "LLM Evaluation & Benchmarking", "AI Ethics & Governance", "Go-to-Market (GTM) Strategy", "Roadmap Planning"
   ],
-  "Technical Literacy": [
-    "Agentic AI", "Multi-Agent Systems", "RAG Pipelines",
-    "Cloud Infrastructure (Azure, AWS)", "CI/CD Pipelines", "Microservices Architecture",
-    "Python", "SQL", "Full-Stack Architecture (Angular, React, Next.js, .NET)"
+  "AI Systems & Tech Literacy": [
+    "Multi-Agent Frameworks (CrewAI, LangChain)", "Vector Databases (ChromaDB, Pinecone)",
+    "LLM Integration (Gemini, OpenAI)", "Cloud Infrastructure (Azure, AWS)",
+    "CI/CD Pipelines", "Microservices Architecture", "Business Intelligence"
   ],
-  "Languages": [
-    "C", "C++", "C#", "Python", "JavaScript", "TypeScript", "PHP"
+  "Core Development Languages": [
+    "Python", "SQL", "C++", "C#", "TypeScript", "JavaScript", "PHP"
   ]
 };
 
