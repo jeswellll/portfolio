@@ -202,7 +202,8 @@ export const projects: Project[] = [
       "Angular", "FastAPI (Python)", "PostgreSQL", "SQLAlchemy", "DOM/CSS Grids", "REST APIs"
     ],
     links: [
-      { label: "Link", url: "https://github.com/jeswellll/world-cup-tracker" }
+      { label: "github", url: "https://github.com/jeswellll/world-cup-tracker" },
+      { label: "link", url: "https://world-cup-tracker-omega.vercel.app/" }
     ],
     imagePath: "/images/projects/world-cup-tracker.jpg"
   },
